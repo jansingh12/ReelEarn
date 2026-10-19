@@ -2,7 +2,7 @@
   "name": "reelearn-auth",
   "version": "1.0.0",
   "private": true,
-  "main": "node_modules/expo/AppEntry.js",
+  "main": "index.ts",
   "scripts": {
     "start": "expo start",
     "android": "expo start --android",
@@ -29,6 +29,7 @@
     "react-native-url-polyfill": "^2.0.0"
   },
   "devDependencies": {
+    "@babel/core": "^7.20.0",
     "@types/react": "~18.2.79",
     "typescript": "~5.3.3"
   }
